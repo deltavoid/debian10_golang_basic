@@ -48,7 +48,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/debian10_cpp_basic:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/debian10_golang_basic:latest
       
       - name: Image digest
         run: |
