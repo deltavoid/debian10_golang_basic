@@ -2,6 +2,10 @@ FROM deltavoid/debian10_dev_basic:2023.07.20
 
 
 SHELL ["/bin/bash", "-c"]
+# SHELL ["/bin/bash", "--login", "-c"]
+
+
+
 
 RUN apt-get update && apt-get install -y \
     golang-1.15
